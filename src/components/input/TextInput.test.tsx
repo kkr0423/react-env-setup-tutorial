@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import TextInput from "./TextInput";
 
-test("TextInput Component test mod", async () => {
+test("TextInput Component test mod2", async () => {
   render(<TextInput />);
 
   const inputEle = screen.getByRole("textbox");
